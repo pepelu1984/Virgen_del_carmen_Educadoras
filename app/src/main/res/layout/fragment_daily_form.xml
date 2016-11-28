@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >        
+
+			<RelativeLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:background="@color/vdc_form_background"
+			    android:orientation="vertical"
+			    android:paddingBottom="@dimen/form_vertical_margin"
+			    android:paddingLeft="@dimen/form_horizontal_margin"
+			    android:paddingRight="@dimen/form_horizontal_margin"
+			    android:paddingTop="@dimen/form_vertical_margin" >
+
+				<ImageView
+					android:id="@+id/imageView1"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:src="@drawable/icon_profile"
+					android:scaleType="fitXY"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentStart="true"
+					android:layout_alignBottom="@+id/nameTextView"/>
+
+				<TextView
+					android:id="@+id/nameTextView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Nombre y apellidos..."
+                    android:gravity="bottom"
+					android:textColor="@color/vdc_text"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="10dp"
+					android:layout_toEndOf="@+id/imageView1"
+					android:layout_toRightOf="@+id/imageView1"/>
+
+				<ImageView
+					android:id="@+id/imageView2"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:src="@drawable/icon_calendar"
+                    android:scaleType="fitXY"
+					android:layout_below="@+id/imageView1"
+					android:layout_marginTop="10dp"
+					android:layout_alignLeft="@+id/imageView1"
+					android:layout_alignStart="@+id/imageView1"
+					android:layout_alignRight="@+id/imageView1"
+					android:layout_alignEnd="@+id/imageView1"/>
+
+				<TextView
+					android:id="@+id/week2TextView"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@color/vdc_text"
+					android:text="Fecha2..."
+                    android:gravity="bottom"
+					android:layout_alignBottom="@+id/imageView2"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_alignLeft="@+id/nameTextView"
+					android:layout_alignStart="@+id/nameTextView"
+					android:layout_alignTop="@+id/imageView2"/>
+
+				<LinearLayout
+					android:id="@+id/separatorLayout1"
+					android:layout_width="match_parent"
+					android:layout_height="2dp"
+					android:background="@color/primary"
+					android:orientation="horizontal"
+					android:layout_below="@+id/imageView2"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentStart="true"
+					android:layout_marginTop="21dp">
+				</LinearLayout>
+                
+                <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/separatorLayout1"
+                   android:layout_marginTop="20dp"
+                   android:text="@string/form_daily_food_subtitle"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="@color/vdc_text" />    
+                   
+                <LinearLayout
+                    android:id="@+id/questLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginTop="10dp" >
+                    
+                    <TextView
+                       android:id="@+id/textView66"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/form_daily_salad_item"
+                       android:layout_gravity="center_vertical"
+                       android:textColor="@color/primary"
+                       android:textAppearance="?android:attr/textAppearanceMedium" />
+                    
+                   <Spinner
+                       android:id="@+id/saladDailySpinner"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:entries="@array/options3"
+                       android:textColor="@color/vdc_activity_background"
+                       android:background="@color/primary_light"
+                       android:prompt="@string/form_daily_salad_item" />
+                    
+                </LinearLayout>
+                   
+                <LinearLayout
+                    android:id="@+id/questLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/questLayout1"
+                    android:layout_marginTop="10dp" >
+                    
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/form_daily_1dish_item"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/primary"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    
+                    <Spinner
+                        android:id="@+id/dish1DailySpinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:entries="@array/options3"
+                        android:textColor="@color/vdc_activity_background"
+                        android:background="@color/primary_light"
+                        android:prompt="@string/form_daily_1dish_item" />
+                    
+                </LinearLayout>
+                    
+                <LinearLayout
+                    android:id="@+id/questLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/questLayout2"
+                    android:layout_marginTop="10dp" >
+                    
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/form_daily_2dish_item"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/primary"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                  
+                    <Spinner
+                        android:id="@+id/dish2DailySpinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:entries="@array/options3"
+                        android:textColor="@color/vdc_activity_background"
+                        android:background="@color/primary_light"
+                        android:prompt="@string/form_daily_2dish_item" />
+                    
+                </LinearLayout>          
+                    
+                <LinearLayout
+                    android:id="@+id/questLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/questLayout3"
+                    android:layout_marginTop="10dp" >
+                  
+                    <TextView
+                        android:id="@+id/textView69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/form_daily_dessert_item"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="@color/primary"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                  
+                   <Spinner
+                        android:id="@+id/dessertDailySpinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:entries="@array/options3"
+                        android:textColor="@color/vdc_activity_background"
+                        android:background="@color/primary_light"
+                        android:prompt="@string/form_daily_dessert_item" />
+                   
+                </LinearLayout>  
+                    
+                <LinearLayout
+                     android:id="@+id/separatorLayout2"
+	                 android:layout_width="match_parent"
+	                 android:layout_height="2dp"
+	                 android:layout_below="@+id/questLayout4"
+	                 android:layout_marginTop="10dp"
+	                 android:background="@color/primary"
+	                 android:orientation="horizontal" >
+	            </LinearLayout>  
+	                
+                <TextView
+                    android:id="@+id/textView3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@+id/separatorLayout2"
+	                android:layout_marginTop="20dp"
+	                android:text="@string/form_daily_happy_subtitle"
+	                android:textAppearance="?android:attr/textAppearanceMedium"
+	                android:textColor="@color/vdc_text" />
+                
+                <Spinner
+                    android:id="@+id/happyDailySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/textView3"
+                    android:layout_marginTop="20dp" 
+                    android:textColor="@color/vdc_activity_background"
+                    android:background="@color/primary_light"
+                    android:entries="@array/options2" />    
+                    
+                <LinearLayout
+                     android:id="@+id/separatorLayout3"
+                     android:layout_width="match_parent"
+                     android:layout_height="2dp"
+                     android:layout_below="@+id/happyDailySpinner"
+                     android:layout_marginTop="10dp"
+                     android:background="@color/primary"
+                     android:orientation="horizontal" >
+                </LinearLayout>                	                
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/separatorLayout3"
+                    android:textColor="@color/vdc_text"
+                    android:layout_marginTop="20dp"                    
+                    android:text="@string/form_daily_sleep_subtitle"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <Spinner
+                    android:id="@+id/sleepDailySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:layout_marginLeft="10dp"
+                    android:entries="@array/options2"
+                    android:layout_below="@+id/textView4"
+                    android:textColor="@color/vdc_activity_background"
+                    android:background="@color/primary_light"
+                    android:layout_marginTop="20dp" />    
+                    
+                <LinearLayout
+                     android:id="@+id/separatorLayout4"
+                     android:layout_width="match_parent"
+                     android:layout_height="2dp"
+                     android:layout_below="@+id/sleepDailySpinner"
+                     android:layout_marginTop="10dp"
+                     android:background="@color/primary"
+                     android:orientation="horizontal" >
+                </LinearLayout> 
+                
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/form_daily_pee_subtitle"
+                    android:layout_below="@+id/separatorLayout4"
+                    android:textColor="@color/vdc_text"
+                    android:layout_marginTop="20dp"                    
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <Spinner
+                    android:id="@+id/peeDailySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:layout_marginLeft="10dp"
+                    android:entries="@array/options2"
+                    android:layout_below="@+id/textView5"
+                    android:textColor="@color/vdc_activity_background"
+                    android:background="@color/primary_light"
+                    android:layout_marginTop="20dp" /> 
+                    
+                <LinearLayout
+                     android:id="@+id/separatorLayout5"
+                     android:layout_width="match_parent"
+                     android:layout_height="2dp"
+                     android:layout_below="@+id/peeDailySpinner"
+                     android:layout_marginTop="10dp"
+                     android:background="@color/primary"
+                     android:orientation="horizontal" >
+                </LinearLayout> 
+                
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/form_daily_bag_subtitle"
+                    android:layout_below="@+id/separatorLayout5"
+                    android:textColor="@color/vdc_text"
+                    android:layout_marginTop="20dp"                    
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <Spinner
+                    android:id="@+id/bagDailySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:entries="@array/options2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/textView6"
+                    android:textColor="@color/vdc_activity_background"
+                    android:background="@color/primary_light"
+                    android:layout_marginTop="20dp" /> 
+                    
+                <LinearLayout
+                     android:id="@+id/separatorLayout6"
+                     android:layout_width="match_parent"
+                     android:layout_height="2dp"
+                     android:layout_below="@+id/bagDailySpinner"
+                     android:layout_marginTop="10dp"
+                     android:background="@color/primary"
+                     android:orientation="horizontal" >
+                </LinearLayout> 
+                
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/form_daily_clothes_subtitle"
+                    android:layout_below="@+id/separatorLayout6"
+                    android:textColor="@color/vdc_text"
+                    android:layout_marginTop="20dp"                    
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                <Spinner
+                    android:id="@+id/clothesDailySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:entries="@array/options2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/textView7"
+                    android:textColor="@color/vdc_activity_background"
+                    android:background="@color/primary_light"
+                    android:layout_marginTop="20dp" /> 
+                    
+                <LinearLayout
+                     android:id="@+id/separatorLayout7"
+                     android:layout_width="match_parent"
+                     android:layout_height="2dp"
+                     android:layout_below="@+id/clothesDailySpinner"
+                     android:layout_marginTop="10dp"
+                     android:background="@color/primary"
+                     android:orientation="horizontal" >
+                </LinearLayout>                 
+                    
+                <EditText
+                    android:id="@+id/summaryDailyEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_below="@+id/separatorLayout7"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_background"                    
+                    android:inputType="textMultiLine"
+                    android:lines="4"
+                    android:gravity="top|left"
+                    android:hint="@string/form_summary_hint" />   
+                    
+                <Spinner
+                    android:id="@+id/commentsDailySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:layout_below="@+id/summaryDailyEditText"
+                    android:textColor="@color/vdc_activity_background"
+                    android:background="@color/primary_light"
+                    android:layout_marginTop="10dp" />                
+                
+                <Button 
+                    android:id="@+id/sendDailyButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/commentsDailySpinner"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/vdc_black_text"
+                    android:text="@string/button_send" />
+                
+            </RelativeLayout>			    
+
+        </LinearLayout>			
+
+    </ScrollView>
+                
+</LinearLayout>		

@@ -1,0 +1,23 @@
+<resources>
+
+    <!--  
+    <color name="vdc_activity_background">#e8c16e</color>
+    <color name="vdc_form_background">#610e4d</color>
+    -->
+
+    <color name="vdc_activity_background">#4590ff</color>
+    <color name="vdc_form_background">#ffffff</color>
+    <color name="vdc_form_background_edited">#ababab</color>
+
+    <color name="old_vdc_activity_background">#c6e0ee</color>
+    <color name="old_vdc_form_background">#007fc4</color>
+    <color name="old_vdc_form_background_edited">#00afd4</color>
+
+    <color name="vdc_text">#000000</color>
+    <color name="vdc_black_text">#555555</color>
+
+    <color name="text">#dddddd</color>
+    <color name="primary">#ff7600</color>
+    <color name="primary_light">#ffdc99</color>
+
+</resources>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >         
+        
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/vdc_form_background"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/form_vertical_margin"
+                android:paddingLeft="@dimen/form_horizontal_margin"
+                android:paddingRight="@dimen/form_horizontal_margin"
+                android:paddingTop="@dimen/form_vertical_margin" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icon_profile"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignBottom="@+id/nameTextView"/>
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre y apellidos..."
+                    android:gravity="bottom"
+                    android:textColor="@color/vdc_text"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/imageView1"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icon_calendar"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignLeft="@+id/imageView1"
+                    android:layout_alignStart="@+id/imageView1"
+                    android:layout_alignRight="@+id/imageView1"
+                    android:layout_alignEnd="@+id/imageView1"/>
+
+                <TextView
+                    android:id="@+id/week2TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/vdc_text"
+                    android:text="Fecha2..."
+                    android:gravity="bottom"
+                    android:layout_alignBottom="@+id/imageView2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_alignLeft="@+id/nameTextView"
+                    android:layout_alignStart="@+id/nameTextView"
+                    android:layout_alignTop="@+id/imageView2"/>
+
+                <LinearLayout
+                    android:id="@+id/separatorLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/primary"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="21dp">
+                </LinearLayout>
+                
+                <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/separatorLayout1"
+                   android:layout_marginTop="20dp"
+                   android:text="@string/form_weekly_food_subtitle"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="@color/vdc_text" />  
+                   
+                    <LinearLayout
+                        android:id="@+id/questLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/textView2"
+                        android:layout_marginTop="10dp" >
+                
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_weekly_salad_item"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/primary"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+                        <Spinner
+                            android:id="@+id/saladSpinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:entries="@array/options4"
+                            android:textColor="@color/vdc_activity_background"
+                            android:background="@color/primary_light"
+                            android:prompt="@string/form_weekly_salad_item" />
+                
+                    </LinearLayout> 
+                    
+                    <LinearLayout
+                        android:id="@+id/questLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/questLayout1"
+                        android:layout_marginTop="10dp" >
+                
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_daily_1dish_item"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/primary"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        <Spinner
+                            android:id="@+id/dish1Spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:entries="@array/options4"
+                            android:textColor="@color/vdc_activity_background"
+                            android:background="@color/primary_light"
+                            android:prompt="@string/form_weekly_dishes_item" />        
+                
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:id="@+id/questLayout2_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/questLayout2"
+                        android:layout_marginTop="10dp" >
+                
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_daily_2dish_item"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/primary"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        <Spinner
+                            android:id="@+id/dish2Spinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:entries="@array/options4"
+                            android:textColor="@color/vdc_activity_background"
+                            android:background="@color/primary_light"
+                            android:prompt="@string/form_weekly_dishes_item" />        
+                
+                    </LinearLayout>                    
+                    
+                    <LinearLayout
+                        android:id="@+id/questLayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/questLayout2_1"
+                        android:layout_marginTop="10dp" >
+                
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_weekly_dessert_item"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/primary"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        <Spinner
+                            android:id="@+id/dessertSpinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:entries="@array/options4"
+                            android:textColor="@color/vdc_activity_background"
+                            android:background="@color/primary_light"
+                            android:prompt="@string/form_weekly_dessert_item" />           
+                
+                    </LinearLayout> 
+                    
+	                <LinearLayout
+	                    android:id="@+id/separatorLayout2"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="2dp"
+	                    android:layout_below="@+id/questLayout3"
+	                    android:layout_marginTop="10dp"
+	                    android:background="@color/primary"
+	                    android:orientation="horizontal" >
+	                </LinearLayout>
+                
+	                <TextView
+	                   android:id="@+id/textView7"
+	                   android:layout_width="wrap_content"
+	                   android:layout_height="wrap_content"
+	                   android:layout_below="@+id/separatorLayout2"
+	                   android:layout_marginTop="20dp"
+	                   android:text="@string/form_weekly_norms_subtitle"
+	                   android:textAppearance="?android:attr/textAppearanceMedium"
+	                   android:textColor="@color/vdc_text" />
+                
+	                <LinearLayout
+	                    android:id="@+id/questLayout4"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:orientation="horizontal"
+	                    android:layout_below="@+id/textView7"
+	                    android:layout_marginTop="10dp" >
+	                
+	                    <TextView
+	                        android:id="@+id/textView8"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="@string/form_weekly_row_item"
+	                        android:layout_gravity="center_vertical"
+	                        android:textColor="@color/primary"
+	                        android:textAppearance="?android:attr/textAppearanceMedium" />
+	                        
+	                    <Spinner
+	                        android:id="@+id/rowSpinner"
+	                        android:layout_width="0dp"
+	                        android:layout_height="wrap_content"
+	                        android:layout_weight="1"
+	                        android:layout_marginLeft="10dp"
+	                        android:entries="@array/options3"
+	                        android:textColor="@color/vdc_activity_background"
+	                        android:background="@color/primary_light"
+	                        android:prompt="@string/form_weekly_row_item" />          
+	               
+	                </LinearLayout>   
+	                
+                    <LinearLayout
+                        android:id="@+id/questLayout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/questLayout4"
+                        android:layout_marginTop="10dp" >
+                
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_weekly_dinningroom_item"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/primary"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        <Spinner
+                            android:id="@+id/dinningroomSpinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:entries="@array/options3"
+                            android:textColor="@color/vdc_activity_background"
+                            android:background="@color/primary_light"
+                            android:prompt="@string/form_weekly_dinningroom_item" />         
+                
+                    </LinearLayout>	 
+                    
+                    <LinearLayout
+                        android:id="@+id/questLayout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/questLayout5"
+                        android:layout_marginTop="10dp" >
+                
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_weekly_games_item"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/primary"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        <Spinner
+                            android:id="@+id/gamesSpinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:entries="@array/options3"
+                            android:textColor="@color/vdc_activity_background"
+                            android:background="@color/primary_light"
+                            android:prompt="@string/form_weekly_games_item" />        
+                
+                    </LinearLayout>  
+                    
+                    <LinearLayout
+                        android:id="@+id/questLayout7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/questLayout6"
+                        android:layout_marginTop="10dp" >
+                
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/form_weekly_washing_item"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="@color/primary"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        <Spinner
+                            android:id="@+id/washingSpinner"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:entries="@array/options3"
+                            android:textColor="@color/vdc_activity_background"
+                            android:background="@color/primary_light"
+                            android:prompt="@string/form_weekly_washing_item" />            
+                
+                    </LinearLayout>   
+                    
+                <LinearLayout
+                     android:id="@+id/separatorLayout7"
+                     android:layout_width="match_parent"
+                     android:layout_height="2dp"
+                     android:layout_below="@+id/questLayout7"
+                     android:layout_marginTop="10dp"
+                     android:background="@color/primary"
+                     android:orientation="horizontal" >
+                </LinearLayout>                 
+                    
+                <EditText
+                    android:id="@+id/summaryWeeklyEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_below="@+id/separatorLayout7"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_background"                    
+                    android:inputType="textMultiLine"
+                    android:lines="4"
+                    android:gravity="top|left"
+                    android:hint="@string/form_summary_hint" />  
+                    
+                <Spinner
+                    android:id="@+id/commentsWeeklySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:layout_below="@+id/summaryWeeklyEditText"
+                    android:textColor="@color/vdc_activity_background"
+                    android:background="@color/primary_light"
+                    android:layout_marginTop="10dp" />                  
+                    
+                    <Button 
+                        android:id="@+id/sendWeeklyButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/commentsWeeklySpinner"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/vdc_black_text"
+                        android:text="@string/button_send" />
+
+            </RelativeLayout>
+            
+        </LinearLayout>         
+        
+    </ScrollView>        
+
+</LinearLayout>     		

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Virgen del Carmen Educadoras</string>
+    <string name="action_settings">Preferencias</string>
+
+    <string name="action_not_sent">No enviados</string>
+    <string name="action_sent">Enviados</string>
+    <string name="action_logout">Cerrar sesión</string>
+
+    <string name="tab_daily_title">Ficha diaria</string>
+    <string name="tab_weekly_title">Ficha semanal</string>
+    
+    <string name="form_student_show_subtitle">MOSTRAR FORMULARIOS</string>    
+    
+    <string name="form_weekly_food_subtitle">ALIMENTACION</string>
+    <string name="form_weekly_norms_subtitle">NORMAS</string>
+    <string name="form_weekly_salad_item">Ensalada: </string>
+    <string name="form_weekly_dishes_item">1er y 2do plato: </string>
+    <string name="form_weekly_dessert_item">Postre: </string>
+    <string name="form_weekly_row_item">Fila: </string>
+    <string name="form_weekly_dinningroom_item">Dentro del comedor: </string>
+    <string name="form_weekly_games_item">Durante juegos y talleres: </string>
+    <string name="form_weekly_washing_item">Aseo: </string>
+    
+    <string name="form_daily_food_subtitle">¿Cómo ha comido?</string>
+    <string name="form_daily_salad_item">Ensalada: </string>
+    <string name="form_daily_1dish_item">1er plato: </string>
+    <string name="form_daily_2dish_item">2do plato: </string>    
+    <string name="form_daily_dessert_item">Postre: </string>
+    <string name="form_daily_happy_subtitle">¿Se ha mostrado contento en los tiempos de actividades y/o juegos?</string>
+    <string name="form_daily_sleep_subtitle">¿Ha dormido la siesta?</string>            
+    <string name="form_daily_pee_subtitle">¿Ha controlado bien los esfínteres?</string>
+    <string name="form_daily_bag_subtitle">¿Tiene en el colegio la bolsa del aseo?</string>
+    <string name="form_daily_clothes_subtitle">¿Tiene ropa de cambio?</string>          
+
+    <string-array name="options2">
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+    
+    <string-array name="options3">
+        <item>Bien</item>
+        <item>Regular</item>
+        <item>Mal</item>        
+    </string-array>    
+    
+    <string-array name="options4">
+        <item>Muy bien</item>
+        <item>Bien</item>
+        <item>Regular</item>
+        <item>Mal</item>        
+    </string-array>
+    
+    <string-array name="options_form">
+        <item>Diario</item>
+        <item>Semanal</item>
+    </string-array>    
+    
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_user">Usuario</string>
+    
+    <string name="button_login">Entrar</string>
+    <string name="button_ok">Aceptar</string>
+    <string name="button_go_daily">Ver formulario diario</string>
+    <string name="button_go_weekly">Ver formulario semanal</string>
+    <string name="button_send">Enviar</string>    
+    
+    <string name="error_connection">No se ha podido conectar al servidor. Revise la conexión.</string>
+    <string name="error_ws_response">Error de transmisión de datos. Inténtelo de nuevo.</string>
+    <string name="error_login">Usuario o contraseña incorrectos. Inténtelo de nuevo.</string>
+    
+    <string name="text_select_course">Elija el curso</string>
+    <string name="text_select_student">Elija el estudiante</string>
+    <string name="text_select_form">Elija el formulario</string>
+    <string name="text_wait">Espere...</string>
+    <string name="text_no_students">No hay estudiantes en el listado</string>
+    
+    <string name="button_student_default_form">Enviar</string>
+    <string name="button_accept_all">Enviar todos</string>
+    <string name="form_summary_hint">Observaciones</string>
+
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.0_e3bbaa3f6536af8e929d682adb4806677a1d32c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0_fa381759b3705a5bcf2ff9d6e2d352f01e836eb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\libs\okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_f069503357d7ce245e16547836cfbca245617421.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.0_97c5f54505d68334596e8c797689ee5f6cc75f7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.0_9727f4edc5659f59bc7c8aa2060936411c753cf1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\libs\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_ec58d2240d4ab111bd1853f7e7c548cbbbb92ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\libs\jackson-core-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8b8310381b690e317f5f0574e9b2dd7034778b4c">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\jackson-core-2.7.2_529a0dfe03b81dad51ccf89908e2d2a35ce2db99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\libs\converter-jackson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ef33476a62d9c62dfca6b6c9e086f2e3343a96f4">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\converter-jackson-2.1.0_044142e139d2aa04e7059d2143affc93f7f44d0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.1.0_1a6a461155733b70ec31987a3db62d1c457f51d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\libs\jackson-databind-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="84ffa765dd258dbab8695963c41308b054f3a1cb">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\jackson-databind-2.7.2_0597895faf45c3799ca8be975ceb3028b2e0af28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0_110495038198f98fa9e7649b3e6f37b4e7efb9e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.0_d4aa8b97ab2742b09e93d329c1bc748629d1f510.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\libs\jackson-annotations-2.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="19f42c154ffc689f40a77613bc32caeb17d744e3">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.7.0_2032e3811bac0f47be0b024b65671cabbb270fb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\libs\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\okio-1.8.0_5400368d17adbd531b1265e030d1124c4ca62d95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\libs\vdc-service-client.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e339d3e86959feaa8e3116d2704c66c2cd394fb1">
+        <dex dex="C:\Users\NewPep\Desktop\DynamicDroides\VirgenDelCarmen\VirgenDelCarmen\app\build\intermediates\pre-dexed\debug\vdc-service-client_82ff33a0bebd2aae62c668405e2f0e36d6875026.jar" />
+    </item>
+
+</items>
